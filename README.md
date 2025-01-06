@@ -11,15 +11,18 @@ Prerequisites
 Docker: Make sure Docker is installed on your machine.
 Docker Compose: Required to orchestrate the containers.
 Jenkins: Jenkins should be set up for the CI/CD pipeline.
+
 Setting Up the Application
 
 1. Clone the Repository
    Clone the project repository to your local machine:
 
 git clone https://github.com/FouedNasser/assignement-app.git
-cd assignement-app 2. Environment Setup
-Backend Environment Configuration
-In the root directory of the repository, create a .env file for the backend with the necessary environment variables. Example:
+cd assignement-app
+
+2. Environment Setup
+   Backend Environment Configuration
+   In the root directory of the repository, create a .env file for the backend with the necessary environment variables. Example:
 
 BACKEND_PORT=5000
 MONGO_URI=mongodb://mongo:27017/assignement-db
